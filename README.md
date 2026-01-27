@@ -1,10 +1,10 @@
-# fmri-simon-analysis
+# mri-simon-analysis
 
-🧠 fMRI Analysis Practice with the SIMON Dataset
+🧠 Structural MRI Analysis Practice with the SIMON Dataset
 
-This repository documents a hands-on learning project on functional MRI (fMRI) data analysis, using the public SIMON dataset from the 1000 Functional Connectomes Project (INDI).
+This repository documents a hands-on learning project on structural MRI analysis, using anatomical brain scans from the SIMON dataset (1000 Functional Connectomes Project – INDI).
 
-The goal is to build a reproducible, end-to-end neuroimaging analysis workflow, covering preprocessing, quality control, time-series analysis, and functional connectivity.
+The goal is to build a reproducible workflow for structural neuroimaging, covering image inspection, preprocessing concepts, tissue segmentation, and quantitative brain feature exploration.
 
 🔗 Dataset: SIMON Dataset (INDI Retrospective Collection)
 https://fcon_1000.projects.nitrc.org/indi/retro/SIMON.html
@@ -13,15 +13,17 @@ https://fcon_1000.projects.nitrc.org/indi/retro/SIMON.html
 
 This project focuses on developing practical skills in:
 
-Understanding fMRI data structure (4D NIfTI, metadata, timing)
+Understanding 3D MRI anatomical data
 
-Performing standard preprocessing
+Inspecting MRI header and spatial metadata
 
-Conducting time-series and functional connectivity analysis
+Performing basic structural preprocessing
 
-Applying Python-based neuroimaging tools
+Exploring brain tissue characteristics
 
-Building a reproducible research workflow
+Extracting quantitative anatomical features
+
+Building a clean and reproducible neuroimaging workflow in Python
 
 🗂 Repository Structure
 
