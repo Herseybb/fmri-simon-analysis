@@ -27,7 +27,26 @@ Building a clean and reproducible neuroimaging workflow in Python
 
 🗂 Repository Structure
 
-
-
+```text
+mri-simon-structural-analysis/
+│
+├── data/                  # Raw MRI data (not uploaded)
+├── notebooks/
+│   ├── 01_mri_data_loading.ipynb
+│   ├── 02_mri_visualization.ipynb
+│   ├── 03_image_preprocessing_concepts.ipynb
+│   ├── 04_tissue_intensity_analysis.ipynb
+│   ├── 05_brain_masking_and_segmentation.ipynb
+│   └── 06_quantitative_feature_extraction.ipynb
+│
+├── src/
+│   ├── io_utils.py
+│   ├── visualization_utils.py
+│   ├── preprocessing_utils.py
+│   └── feature_extraction.py
+│
+├── figures/
+├── environment.yml / pyproject.toml
+└── README.md
 
 
