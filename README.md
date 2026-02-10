@@ -9,13 +9,13 @@ The goal is to build a reproducible workflow for structural neuroimaging, coveri
 🔗 Dataset: SIMON Dataset (INDI Retrospective Collection)
 https://fcon_1000.projects.nitrc.org/indi/retro/SIMON.html
 
+[Turns out the dataset is not the structural MRI dataset, interesting learning journey. More up-to-date dataset may refer: https://staging.openneuro.org/datasets/ds001037/versions/1.0.1 for futher exploring]
+
 🎯 Project Objectives
 
 This project focuses on developing practical skills in:
 
 Understanding 3D MRI anatomical data
-
-Inspecting MRI header and spatial metadata
 
 Performing basic structural preprocessing
 
@@ -31,22 +31,17 @@ Building a clean and reproducible neuroimaging workflow in Python
 mri-simon-structural-analysis/
 │
 ├── data/                  # Raw MRI data (not uploaded)
-├── notebooks/
-│   ├── 01_mri_data_loading.ipynb
-│   ├── 02_mri_visualization.ipynb
-│   ├── 03_image_preprocessing_concepts.ipynb
+├── notebooks/             # For learning and exploring
+│   ├── 01_data_loading.ipynb
+│   ├── 02_visualization.ipynb
+│   ├── 03_image_preprocessing.ipynb
 │   ├── 04_tissue_intensity_analysis.ipynb
 │   ├── 05_brain_masking_and_segmentation.ipynb
 │   └── 06_quantitative_feature_extraction.ipynb
 │
-├── src/
-│   ├── io_utils.py
-│   ├── visualization_utils.py
-│   ├── preprocessing_utils.py
-│   └── feature_extraction.py
+├── src/                  # for reproducible workflows
 │
 ├── figures/
-├── environment.yml / pyproject.toml
 └── README.md
 
 
