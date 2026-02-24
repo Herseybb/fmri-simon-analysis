@@ -9,7 +9,7 @@ The goal is to build a reproducible workflow for structural neuroimaging, coveri
 🔗 Dataset: SIMON Dataset (INDI Retrospective Collection)
 https://fcon_1000.projects.nitrc.org/indi/retro/SIMON.html
 
-[Turns out the dataset is not the structural MRI dataset, interesting learning journey. More up-to-date dataset may refer: https://staging.openneuro.org/datasets/ds001037/versions/1.0.1 for futher exploring]
+[More up-to-date dataset may refer: https://staging.openneuro.org/datasets/ds001037/versions/1.0.1 for futher exploring]
 
 🎯 Project Objectives
 
@@ -43,5 +43,17 @@ mri-simon-structural-analysis/
 │
 ├── figures/
 └── README.md
+
+
+📗 Important information
+
+Core workflow (typically most of the time will be spending on the preprocessing of the data):
+1. Brain extraction
+2. Tissue Segmentation
+3. Spatial Normalisation: Align different brain into nomarlized template (e.g. MNI152)
+4. Smoothing: lower the noise
+5. Quality Control: check results manualy
+6. Feature Extraction: for example, Hippocampal Volume, Cortical Thickness.
+
 
 
